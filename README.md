@@ -29,7 +29,7 @@ Login with your credentials in Google and explore calculation API.
 Calculation API build with [Exp4j](https://lallafa.objecthunter.net/exp4j/) calculation library
 It's accept calculation string via URL parameter, for example expected return for URL below will be *2*
 
-http://localhost:8080/calc?exp=(2+2)*2/4
+[http://localhost:8080/calc?exp=(2+2)*2/4](http://localhost:8080/calc?exp=(2%2B2)*2/4)
 
 DEMO USE ONLY !!! No validation and/or cleaning done on input parameters.
 
