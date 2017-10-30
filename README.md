@@ -7,15 +7,19 @@ Follow rules from
 [](https://developers.google.com/identity/protocols/OpenIDConnect) 
 to configure OAuth 2.0 credentials in Google API console
 
-*client_id* and *client_secret* parameters needs to be explicitly set in _application.properties_ file or passed via command line (see _Run_ section below)
+**client_id** and **client_secret** parameters needs to be explicitly set in _application.properties_ file or passed via command line (see _Run_ section below)
 
 ## Build
 
+```sh
 mvn clean install
+```
 
 ## Run
 
+```sh
 java -jar target/openid-connect-demo.jar --client_id=<your_client_id> --client_secret=<your_client_secret>
+```
 
 ## Test
 
