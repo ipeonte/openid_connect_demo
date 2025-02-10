@@ -3,8 +3,7 @@
 This is the demo project of how to authenticate REST Service build with Spring Security against Google OpenId Connect Provider. Application is build with Java 8.
 
 ## Prerequisites
-Follow rules from 
-[](https://developers.google.com/identity/protocols/OpenIDConnect) 
+Follow rules from [Google Developers](https://developers.google.com/identity/protocols/OpenIDConnect) 
 to configure OAuth 2.0 credentials in Google API console
 
 **client_id** and **client_secret** parameters needs to be explicitly set in _application.properties_ file or passed via command line (see _Run_ section below)
@@ -35,7 +34,7 @@ DEMO USE ONLY !!! No validation and/or cleaning done on input parameters.
 
 ## Only If you are wondering - What happened under the hood.
 
-Diagram below I found in this [blog](hhttps://www.citrix.com/blogs/2015/09/11/openid-connectoauth-2-0-integration-with-xenapp-through-unified-gateway/) shows the interaction between 3 parties involved into the authentication process - Browser, Web Service and Google.
+Diagram below I found in this [blog](https://www.citrix.com/blogs/2015/09/11/openid-connectoauth-2-0-integration-with-xenapp-through-unified-gateway/) shows the interaction between 3 parties involved into the authentication process - Browser, Web Service and Google.
 
 ![OpenID Connect Sequence Diagram](https://www.citrix.com/blogs/wp-content/uploads/2015/09/220.png)
 
